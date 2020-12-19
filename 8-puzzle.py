@@ -28,7 +28,7 @@ def print_puzzle(array):
     for a in range(len(array)):
         for i in array[a]:
             if i == 0:
-                print(bar, Back.WHITE + ' ' + Back.RESET, end=' ')
+                print(bar, Back.BLACK + ' ' + Back.RESET, end=' ')
             else:
                 print(bar, i, end=' ')
         print(bar)
